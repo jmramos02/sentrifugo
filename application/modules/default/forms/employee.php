@@ -244,6 +244,100 @@ class Default_Form_employee extends Zend_Form
                 $last_name->setAttrib("class", "formDataElement");
                 $last_name->setAttrib('maxlength', 50);
 
+                $sss = new Zend_Form_Element_Text("sss");
+                $sss->setLabel("SSS Number");
+                $sss->setAttrib("class", "formDataElement");
+                $sss->setAttrib('maxlength', 15);
+                $sss->setRequired(true);
+        
+                $pagibig = new Zend_Form_Element_Text("pagibig");
+                $pagibig->setLabel("Pagibig Number");
+                $pagibig->setAttrib("class", "formDataElement");
+                $pagibig->setAttrib('maxlength', 15);
+                $pagibig->setRequired(true);
+        
+                $tin = new Zend_Form_Element_Text("tin");
+                $tin->setLabel("TIN");
+                $tin->setAttrib("class", "formDataElement");
+                $tin->setAttrib('maxlength', 15);
+                $tin->setRequired(true);
+        
+                $philhealth = new Zend_Form_Element_Text("philhealth");
+                $philhealth->setLabel("Philhealth Number");
+                $philhealth->setAttrib("class", "formDataElement");
+                $philhealth->setAttrib('maxlength', 15);
+                $philhealth->setRequired(true);
+
+                $bankAccountNumber = new Zend_Form_Element_Text("bankAccountNumber");
+                $bankAccountNumber->setLabel("Bank Account Number");
+                $bankAccountNumber->setAttrib("class", "formDataElement");
+                $bankAccountNumber->setAttrib('maxlength', 15);
+
+                $payslipPassword = new Zend_Form_Element_Text("payslipPassword");
+                $payslipPassword->setLabel("Payslip Password");
+                $payslipPassword->setAttrib("class", "formDataElement");
+                $payslipPassword->setAttrib('maxlength', 15);
+
+                $evaluationPassword = new Zend_Form_Element_Text("evaluationPassword");
+                $evaluationPassword->setLabel("Evaluation Password");
+                $evaluationPassword->setAttrib("class", "formDataElement");
+                $evaluationPassword->setAttrib('maxlength', 15);
+        
+                $taxCode = new Zend_Form_Element_Text("taxCode");
+                $taxCode->setLabel("Tax Code");
+                $taxCode->setAttrib("class", "formDataElement");
+                $taxCode->setAttrib('maxlength', 15);
+                
+                $pagibigLoan = new Zend_Form_Element_Text("pagibigLoan");
+                $pagibigLoan->setLabel("Pagibig Loan");
+                $pagibigLoan->setAttrib("class", "formDataElement");
+                $pagibigLoan->setAttrib('maxlength', 15);
+        
+                $sssLoan = new Zend_Form_Element_Text("sssLoan");
+                $sssLoan->setLabel("SSS Loan");
+                $sssLoan->setAttrib("class", "formDataElement");
+                $sssLoan->setAttrib('maxlength', 15);
+                
+                $transportationAllowance = new Zend_Form_Element_Text("transportationAllowance");
+                $transportationAllowance->setLabel("Transportation Allowance");
+                $transportationAllowance->setAttrib("class", "formDataElement");
+                $transportationAllowance->setAttrib('maxlength', 10);
+
+                $incentive = new Zend_Form_Element_Text("incentive");
+                $incentive->setLabel("Incentive");
+                $incentive->setAttrib("class", "formDataElement");
+                $incentive->setAttrib('maxlength', 10);
+        
+                $representationAllowance = new Zend_Form_Element_Text("representationAllowance");
+                $representationAllowance->setLabel("Representation Allowance");
+                $representationAllowance->setAttrib("class", "formDataElement");
+                $representationAllowance->setAttrib('maxlength', 10);
+
+                $salesIncentive = new Zend_Form_Element_Text("salesIncentive");
+                $salesIncentive->setLabel("Sales Incentive");
+                $salesIncentive->setAttrib("class", "formDataElement");
+                $salesIncentive->setAttrib('maxlength', 10);
+
+                $taxShield = new Zend_Form_Element_Text("taxShield");
+                $taxShield->setLabel("Tax Shield");
+                $taxShield->setAttrib("class", "formDataElement");
+                $taxShield->setAttrib('maxlength', 10);
+        
+                $salaryLoan = new Zend_Form_Element_Text("salaryLoan");
+                $salaryLoan->setLabel("Salary Loan");
+                $salaryLoan->setAttrib("class", "formDataElement");
+                $salaryLoan->setAttrib('maxlength', 10);
+                
+                $generalAdjustment = new Zend_Form_Element_Text("generalAdjustment");
+                $generalAdjustment->setLabel("General Adjustment");
+                $generalAdjustment->setAttrib("class", "formDataElement");
+                $generalAdjustment->setAttrib('maxlength', 10);
+
+                $developmentProject = new Zend_Form_Element_Text("developmentProject");
+                $developmentProject->setLabel("Development Project Engagement");
+                $developmentProject->setAttrib("class", "formDataElement");
+                $developmentProject->setAttrib('maxlength', 10);
+        
                 $other_modeofentry = new Zend_Form_Element_Text("other_modeofentry");
                 $other_modeofentry->setLabel("Mode of Employment(Other)");	
                 $other_modeofentry->setAttrib("class", "formDataElement");
@@ -411,7 +505,8 @@ class Default_Form_employee extends Zend_Form
                                          $position,$prefix_id,$extension_number,$office_number,$office_faxnumber,$yearsofexp,$date_of_joining,$date_of_leaving,$submit,$employeeId,
                                          $modeofentry,$candidatereferredby,$rccandidatename,$emailaddress,
                                          $emprole,$hid_modeofentry,$hid_rccandidatename,$other_modeofentry,$act_inact,
-                                         $disp_requi,$first_name,$last_name));
+                                         $disp_requi,$first_name,$last_name, $sss, $salaryLoan, $sssLoan, $pagibig, $pagibigLoan, $developmentProject,
+                                        $taxShield, $tin, $bankAccountNumber, $payslipPassword, $evaluationPassword, $taxCode, $incentive, $representationAllowance, $salesIncentive, $generalAdjustment, $philhealth, $transportationAllowance));
                 $this->setElementDecorators(array('ViewHelper')); 
                 $this->setElementDecorators(array(
                     'UiWidgetElement',
