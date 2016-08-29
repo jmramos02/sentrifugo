@@ -502,7 +502,7 @@ if(!empty($this->msgarray) && isset($this->msgarray))
                     <span id="errors-<?php echo $this->form->generalAdjustment->getId(); ?>" class="errors"><?php echo isset($this->msgarray['generalAdjustment'])?$this->msgarray['generalAdjustment']:"";?></span>
                 </div>
 
-			<div class="new-form-ui-submit"
+			<div class="new-form-ui-submit">
 					<?php echo $this->form->submit; ?>
 					<button onclick="window.location.href='<?php echo BASE_URL; ?>employee';" type="button" id="Cancel" name="Cancel">Cancel</button>
 			</div>
