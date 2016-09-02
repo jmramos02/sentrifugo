@@ -1000,6 +1000,22 @@ class Default_EmployeeController extends Zend_Controller_Action
 							$employeeform->setDefault('department_id',$data['department_id']);
 							$employeeform->setDefault('position_id',$data['position_id']);
 							$employeeform->setDefault('prefix_id',$data['prefix_id']);
+                            $employeeform->setDefault('sss', $data['sss_number']);
+                            $employeeform->setDefault('pagibig', $data['pagibig_number']);
+                            $employeeform->setDefault('philhealth', $data['philhealth_number']);
+                            $employeeform->setDefault('bankAccountNumber', $data['bank_account_number']);
+                            $employeeform->setDefault('payslipPassword', $data['payslip_password']);
+                            $employeeform->setDefault('evaluationPassword', $data['evaluation_password']);
+                            $employeeform->setDefault('taxCode', $data['tax_code']);
+                            $employeeform->setDefault('pagibigLoan', $data['pagibig_loan']);
+                            $employeeform->setDefault('sssLoan', $data['sss_loan']);
+                            $employeeform->setDefault('transportationAllowance', $data['transportation_allowance']);
+                            $employeeform->setDefault('representationAllowance', $data['representation_allowance']);
+                            $employeeform->setDefault('salesIncentive', $data['sales_incentive']);
+                            $employeeform->setDefault('taxShield', $data['tax_shield']);
+                            $employeeform->setDefault('salaryLoan', $data['salary_loan']);
+                            $employeeform->setDefault('generalAdjustment', $data['general_adjustment']);
+                            $employeeform->setDefault('developmentProject', $data['development_project_engagement']);
 							//$employeeform->setDefault('emprole',$data['emprole']."_".MANAGEMENT_GROUP);
 							$employeeform->setDefault('emprole',$data['emprole']);
 							
@@ -1489,7 +1505,6 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 		$date_of_joining = $this->_request->getParam('date_of_joining',null);
 		$date_of_joining = sapp_Global::change_date($date_of_joining,'database');
 		
-		
 		$isvalidorgstartdate = $orgInfoModel->validateEmployeeJoiningDate($date_of_joining,$unitid,$deptid);
 		if(!empty($isvalidorgstartdate))
 		{
@@ -1646,7 +1661,26 @@ public function editappraisal($id,$performanceflag,$ff_flag)
                                     'date_of_leaving'=>($date_of_leaving!=''?$date_of_leaving:NULL),
                                     'years_exp'=>($years_exp=='')?null:$years_exp,
                                     'modifiedby'=>$loginUserId,				
-                                    'modifieddate'=>gmdate("Y-m-d H:i:s")
+                                    'modifieddate'=>gmdate("Y-m-d H:i:s"), 
+                                    'sss_number' => $this->_request->getParam('sss', null),
+                                    'pagibig_number' => $this->_request->getParam('pagibig', null),
+                                    'tin' => $this->_request->getParam('tin', null),
+                                    'philhealth_number' => $this->_request->getParam('philhealth', null),
+                                    'bank_account_number' => $this->_request->getParam('bankAccountNumber', null),
+                                    'payslip_password' => $this->_request->getParam('payslipPassword', null),
+                                    'evaluation_password' => $this->_request->getParam('evaluationPassword', null),
+                                    'tax_code' => $this->_request->getParam('taxCode', null),
+                                    'pagibig_loan' => $this->_request->getParam('pagbigLoan', null),
+                                    'sss_loan' => $this->_request->getParam('sssLoan', null),
+                                    'representation_allowance' => $this->_request->getParam('representationAllowance', null),
+                                    'transportation_allowance' => $this->_request->getParam('transportation_allowance', null),
+                                    'incentive' => $this->_request->getParam('incentive', null),
+                                    'sales_incentive' => $this->_request->getParam('salesIncentive', null),
+                                    'tax_shield' => $this->_request->getParam('tax_shield', null),
+                                    'salary_loan'=> $this->_request->getParam('salaryLoan', null),
+                                    'development_project_engagement' => $this->_request->getParam('developmentProject', null),
+                                    'general_adjustment' => $this->_request->getParam('generalAdjustment', null),
+	
 				);
 				if($id == '')
 				{

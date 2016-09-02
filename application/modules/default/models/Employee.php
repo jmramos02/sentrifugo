@@ -108,7 +108,7 @@ class Default_Model_Employee extends Zend_Db_Table_Abstract
         public function getdata_emp_report($param_arr,$per_page,$page_no,$sort_name,$sort_type)
         {
 	        $search_str = " e.isactive != 5 ";
-	  
+            
             foreach($param_arr as $key => $value)
             {
                     if($value != '')
@@ -134,7 +134,6 @@ class Default_Model_Employee extends Zend_Db_Table_Abstract
                     }
             }
             
-            
             $offset = ($per_page*$page_no) - $per_page;
          
             $db = Zend_Db_Table::getDefaultAdapter();
@@ -146,13 +145,14 @@ class Default_Model_Employee extends Zend_Db_Table_Abstract
             $count_row = $count_result->fetch();
             $count = $count_row['cnt'];
             $page_cnt = ceil($count/$per_page);
-            
-            $query = "select e.*,es.salary,p.freqtype,c.currencyname, case when e.isactive = 0 then 'Inactive' when e.isactive = 1 then 'Active' when e.isactive = 2 then 'Resigned'  when e.isactive = 3 then 'Left' when e.isactive = 4 then 'Suspended' end isactive"
-                    . " from main_employees_summary e left join main_empsalarydetails es on es.user_id = e.user_id  "
-                    . " left join main_currency c on c.id = es.currencyid "
-                    . " left join main_payfrequency p on p.id = es.salarytype "
-                    . "where ".$search_str." "
-                    . "order by ".$sort_name." ".$sort_type." ".$limit_str;
+
+            $query = "select e.*,m.sss_number,m.philhealth_number,m.tin,m.pagibig_number,m.bank_account_number,m.tax_code,m.sss_loan,m.pagibig_loan,m.transportation_allowance,m.incentive,m.representation_allowance,m.sales_incentive,m.tax_shield,m.salary_loan,m.development_project_engagement,m.general_adjustment,es.salary,p.freqtype,c.currencyname, case when e.isactive = 0 then 'Inactive' when e.isactive = 1 then 'Active' when e.isactive = 2 then 'Resigned'  when e.isactive = 3 then 'Left' when e.isactive = 4 then 'Suspended' end isactive"
+                . " from main_employees_summary e left join main_empsalarydetails es on es.user_id = e.user_id  "
+                . " left join main_currency c on c.id = es.currencyid "
+                . " left join main_payfrequency p on p.id = es.salarytype "
+                . " left join main_employees m on m.user_id = e.user_id "
+                . "where " . $search_str . " "
+                . "order by " . $sort_name . " " . $sort_type . " " . $limit_str;
             $result = $db->query($query);
             $rows = $result->fetchAll();
             return array('rows' => $rows,'page_cnt' => $page_cnt, 'count_emp' => $count);

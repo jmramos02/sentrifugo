@@ -2971,6 +2971,7 @@ CREATE TABLE `main_employeedocuments` (
   `createddate` datetime NOT NULL,
   `modifieddate` datetime NOT NULL,
   `isactive` tinyint(1) DEFAULT '1',
+  `hascopy` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

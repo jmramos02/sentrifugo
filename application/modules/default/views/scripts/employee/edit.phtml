@@ -321,6 +321,129 @@ $report_opt = $this->report_opt;
 				   <span class="errors" id="errors-<?php echo $this->form->office_faxnumber->getId(); ?>"><?php echo $this->msgarray['office_faxnumber'];?></span>
 				<?php }?>
 				</div>
+                                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->sss->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->sss; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->sss->getId(); ?>" class="errors"><?php echo isset($this->msgarray['sss'])?$this->msgarray['sss']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->pagibig->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->pagibig; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->pagibig->getId(); ?>" class="errors"><?php echo isset($this->msgarray['pagibig'])?$this->msgarray['pagibig']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->tin->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->tin; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->tin->getId(); ?>" class="errors"><?php echo isset($this->msgarray['tin'])?$this->msgarray['tin']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->philhealth->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->philhealth; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->philhealth->getId(); ?>" class="errors"><?php echo isset($this->msgarray['philhealth'])?$this->msgarray['philhealth']:"";?></span>
+                </div>
+                
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->bankAccountNumber->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->bankAccountNumber; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->bankAccountNumber->getId(); ?>" class="errors"><?php echo isset($this->msgarray['bankAccountNumber'])?$this->msgarray['bankAccountNumber']:"";?></span>
+                </div>
+
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->payslipPassword->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->payslipPassword; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->payslipPassword->getId(); ?>" class="errors"><?php echo isset($this->msgarray['payslipPassword'])?$this->msgarray['payslipPassword']:"";?></span>
+                </div>
+
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->evaluationPassword->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->evaluationPassword; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->evaluationPassword->getId(); ?>" class="errors"><?php echo isset($this->msgarray['evaluationPassword'])?$this->msgarray['evaluationPassword']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->taxCode->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->taxCode; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->taxCode->getId(); ?>" class="errors"><?php echo isset($this->msgarray['taxCode'])?$this->msgarray['taxCode']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->pagibigLoan->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->pagibigLoan; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->pagibigLoan->getId(); ?>" class="errors"><?php echo isset($this->msgarray['pagibigLoan'])?$this->msgarray['pagibigLoan']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->transportationAllowance->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->transportationAllowance; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->transportationAllowance->getId(); ?>" class="errors"><?php echo isset($this->msgarray['transportationAllowance'])?$this->msgarray['transportationAllowance']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->incentive->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->incentive; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->incentive->getId(); ?>" class="errors"><?php echo isset($this->msgarray['incentive'])?$this->msgarray['incentive']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->representationAllowance->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->representationAllowance; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->representationAllowance->getId(); ?>" class="errors"><?php echo isset($this->msgarray['representationAllowance'])?$this->msgarray['representationAllowance']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->salesIncentive->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->salesIncentive; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->salesIncentive->getId(); ?>" class="errors"><?php echo isset($this->msgarray['salesIncentive'])?$this->msgarray['salesIncentive']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->taxShield->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->taxShield; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->taxShield->getId(); ?>" class="errors"><?php echo isset($this->msgarray['taxShield'])?$this->msgarray['taxShield']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->salaryLoan->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->salaryLoan; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->salaryLoan->getId(); ?>" class="errors"><?php echo isset($this->msgarray['salaryLoan'])?$this->msgarray['salaryLoan']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->developmentProject->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->developmentProject; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->developmentProject->getId(); ?>" class="errors"><?php echo isset($this->msgarray['developmentProject'])?$this->msgarray['developmentProject']:"";?></span>
+                </div>
+                <div class="new-form-ui" >
+                    <label class="required"><?php echo $this->form->generalAdjustment->getLabel(); ?></label>
+                    <div class="division">
+                        <?php echo $this->form->generalAdjustment; ?>
+                    </div>
+                    <span id="errors-<?php echo $this->form->generalAdjustment->getId(); ?>" class="errors"><?php echo isset($this->msgarray['generalAdjustment'])?$this->msgarray['generalAdjustment']:"";?></span>
+                </div>
+
 			<div class="new-form-ui-submit">
 					<?php echo $this->form->submit; ?>
 					<button onclick="window.location.href='<?php echo BASE_URL; ?>employee';" type="button" id="Cancel" name="Cancel">Cancel</button>

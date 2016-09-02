@@ -1188,7 +1188,7 @@ class Default_ReportsController extends Zend_Controller_Action
                         'userfullname' => 'Employee',
                         'emailaddress' => 'Email',
                         'contactnumber' => 'Mobile',
-                        'emprole_name' => 'Role',
+						'emprole_name' => 'Role',
                         'reporting_manager_name' => 'Reporting Manager',
                         'date_of_joining' => 'Date of Joining',
                         'modeofentry' => 'Mode of Employment',
@@ -1208,6 +1208,21 @@ class Default_ReportsController extends Zend_Controller_Action
                         'currencyname' => 'Salary Currency',
                         'freqtype' => 'Pay Frequency',
                         'salary' => 'Salary',
+						'sss_number' => 'SSS Number',
+						'pagibig_number' => 'Pagbig Number',
+						'tin' => 'TIN',
+						'philhealth_number' => 'Philhealth Number',
+						'bank_account_number' => 'Bank Account Number',
+						'tax_code' => 'Tax Code',
+						'sss_loan' => 'SSS Loan',
+						'pagibig_loan' => 'Pagibig Loan',
+						'transportation_allowance' => 'Traponsportation Allowance',
+						'incentive' => 'Incentive',
+						'sales_incentive' => 'Sales Incentive',
+						'tax_shield' => 'Tax Shield',
+						'salary_loan' => 'Salary Loan',
+						'development_project_engagement' => 'Development Project Engagement',
+						'general_adjustment' => 'General Adjustment'
 
 		);
 		$mandatory_array = array(
@@ -1224,9 +1239,9 @@ class Default_ReportsController extends Zend_Controller_Action
 						/*'emp_status_name' => 'Employment Status',
                         'date_of_joining' => 'Date of Joining',  */                                   
 		);
-		/* if($type == 'all')
+		if($type == 'all')
 		return $columns_array;
-		else */
+		else 
 		return $mandatory_array;
 	}
 	public function empautoAction()
@@ -3562,7 +3577,14 @@ class Default_ReportsController extends Zend_Controller_Action
 			$perPage = PERPAGE;
 			$msgarray = array();
 
-			$selectFields = array('userfullname'=>'User','employeeId'=>'Employee ID','group_id'=>'Group','emprole'=>'Role','emailaddress'=>'Email','empipaddress'=>'Ip Address');
+			$selectFields = array(
+				'userfullname'=>'User',
+				'employeeId'=>'Employee ID',
+				'group_id'=>'Group',
+				'emprole'=>'Role',
+				'emailaddress'=>'Email',
+				'empipaddress'=>'Ip Address',
+			);
 			$selectColumns = array_keys($selectFields);
 			
 				if (($this->_request->getParam('fields') != '')){

@@ -557,6 +557,7 @@ function employeereport_ajax(flag)
     $('#id_param_string').val(param_str);
     show_clear();
     $.blockUI({ width:'50px',message: $("#spinner").html() });
+    console.log(param_str);
     var param_str = $('#all_param_div').find('select, textarea, input').serialize();
     $.post(base_url+"/default/myemployees/getempreportdata/format/html",param_str,function(data){
         $('#idget_report_content').html(data);
