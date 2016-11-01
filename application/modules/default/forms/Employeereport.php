@@ -34,7 +34,7 @@ class Default_Form_Employeereport extends Zend_Form
         $reporting_manager->setLabel("Reporting Manager");
         $reporting_manager->setAttrib('name', '');
         $reporting_manager->setAttrib('id', 'idreporting_manager');
-        
+
         $joined_date = new Zend_Form_Element_Text("date_of_joining");        
         $joined_date->setLabel("Date of Joining");
         $joined_date->setAttrib('readonly', 'readonly');
@@ -92,9 +92,6 @@ class Default_Form_Employeereport extends Zend_Form
                             ->addMultiOptions(array('' => 'Select User Status',
                                                     '0' => 'Inactive',
                                                     '1' => 'Active',                                                    
-                                                    '2' => 'Resigned',
-                                                    '3' => 'Left',
-                            						'4' => 'Suspended',
                                                     ));  
         
         

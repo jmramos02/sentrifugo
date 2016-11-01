@@ -192,10 +192,11 @@ class Default_Model_Usermanagement extends Zend_Db_Table_Abstract
             $this->update($data, $where);
             return 'update';
         }
-        else 
+        else
         {
             $this->insert($data);
             $id=$this->getAdapter()->lastInsertId($this->_name);
+           
             return $id;
         }
     }

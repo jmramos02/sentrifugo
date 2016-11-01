@@ -963,7 +963,16 @@ CREATE TABLE `main_employees` (
   `is_orghead` tinyint(1) unsigned DEFAULT '0' COMMENT '1=organisation head,0=normal employee',
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique_user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `main_employees_submanagers`;
+
+CREATE TABLE `employee_submanagers` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) unsigned NOT NULL,
+  `submanager_id` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `main_employees` */
 

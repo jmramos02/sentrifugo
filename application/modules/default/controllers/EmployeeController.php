@@ -640,6 +640,7 @@ class Default_EmployeeController extends Zend_Controller_Action
 			$loginuserGroup = $auth->getStorage()->read()->group_id;
 		}
 		$employeeModel = new Default_Model_Employee();
+		$employeesModel = new Default_Model_Employees();
 		$currentOrgHead = $employeeModel->getCurrentOrgHead();
 	
 		if(empty($currentOrgHead))
@@ -815,6 +816,7 @@ class Default_EmployeeController extends Zend_Controller_Action
 				 
 				if(isset($_POST['reporting_manager']) && $_POST['reporting_manager']!='')
 				$employeeform->setDefault('reporting_manager',$_POST['reporting_manager']);
+				$employeeform->setDefault('submanagers',$_POST['reporting_manager']);
 			}
 
 		}
@@ -1078,7 +1080,7 @@ class Default_EmployeeController extends Zend_Controller_Action
 								$report_opt = $reportingManagerData;
 							}
 							$employeeform->setDefault('reporting_manager',$data['reporting_manager']);
-								
+
 							$this->view->id = $id;
 							$this->view->form = $employeeform;
 							$this->view->employeedata = (!empty($employeeData))?$employeeData[0]:"";
@@ -1485,6 +1487,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 		$requimodel = new Default_Model_Requisition();
 		$candidate_model = new Default_Model_Candidatedetails();
 		$orgInfoModel = new Default_Model_Organisationinfo();
+		$employeeDocsModel = new Default_Model_Employeedocs();
 		
 		$unitid = '';
 		$deptid = '';
@@ -1495,6 +1498,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 		$businessunit_id = $this->_request->getParam('businessunit_id',null);
 		$department_id = $this->_request->getParam('department_id',null);
 		$reporting_manager = $this->_request->getParam('reporting_manager',null);
+		$submanagers = $this->_request->getParam('submanagers', []);
 		$jobtitle_id = $this->_request->getParam('jobtitle_id',null);
 		$position_id = $this->_request->getParam('position_id',null);
 		$user_id = $this->_getParam('user_id',null);
@@ -1504,7 +1508,6 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 		$office_faxnumber = $this->_request->getParam('office_faxnumber',null);
 		$date_of_joining = $this->_request->getParam('date_of_joining',null);
 		$date_of_joining = sapp_Global::change_date($date_of_joining,'database');
-		
 		$isvalidorgstartdate = $orgInfoModel->validateEmployeeJoiningDate($date_of_joining,$unitid,$deptid);
 		if(!empty($isvalidorgstartdate))
 		{
@@ -1619,8 +1622,6 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 				}
 				else
 				{
-					 
-
 					$user_data['createdby'] = $loginUserId;
 					$user_data['createddate'] = gmdate("Y-m-d H:i:s");
 					$user_data['isactive'] = 1;
@@ -1643,6 +1644,13 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 					$user_data['employeeId'] = $emp_id;
 				}
 				$user_status = $usersModel->SaveorUpdateUserData($user_data, $user_where);
+				
+				if($user_status != 'update') {
+					$submanagersModel = new Default_Model_Employeesubmanagers();
+					for($index = 0; $index < count($submanagers); ++$index) {
+						$submanagersModel->addSubmanagers($user_status, $submanagers[$index]);
+					}
+				}
                       
 				if($id == '')
 				$user_id = $user_status;
@@ -1688,9 +1696,81 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 					$data['createddate'] = gmdate("Y-m-d H:i:s");;
 					$data['isactive'] = 1;
 				}
-				
+
 				$Id = $employeeModal->SaveorUpdateEmployeeData($data, $where);
 				
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'COE',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'NBI Clearance',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Barangay Clearance',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Police Clearance',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Police Clearance',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Medical',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Transcript of Records',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+				
+				$docData = array(
+					'user_id' => $user_id,
+					'name' => 'Diploma',
+					'attachments' => json_encode([]),
+					'modifiedby' => $loginUserId,
+					'modifieddate'=>gmdate("Y-m-d H:i:s")
+				);
+				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
 				$statuswhere = array('id=?'=>$user_id);
                                 if($id != '')
                                 {
@@ -1721,7 +1801,9 @@ public function editappraisal($id,$performanceflag,$ff_flag)
                                                 $employeeModal->SaveorUpdateEmployeeData($statusdata, "user_id = ".$user_id);
                                             }
 
+
                                     }
+									
                                 }
 				if($Id == 'update')
 				{
@@ -1791,7 +1873,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 			{
 				
 				$trDb->rollBack();
-				$msgarray['employeeId'] = "Something went wrong, please try again later.";
+				$msgarray['employeeId'] = "Something went wrong, please try again later. " . $e->getMessage();
 				return $msgarray;
 			}
 		}
@@ -1812,6 +1894,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 				$departmentlistArr = $departmentsmodel->getDepartmentList($businessunit_id);
 				$employeeform->department_id->clearMultiOptions();
 				$employeeform->reporting_manager->clearMultiOptions();
+				$employeeform->submanagers->clearMultiOptions();
 				$employeeform->department_id->addMultiOption('','Select Department');
 				foreach($departmentlistArr as $departmentlistresult)
 				{
@@ -2291,8 +2374,9 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 		if(!empty($reportingManagerData))
 		{
 			$report_opt = $reportingManagerData;			 
-			if(isset($_POST['reporting_manager']) && $_POST['reporting_manager']!='')
-			$emp_form->setDefault('reporting_manager',$_POST['reporting_manager']);
+			if(isset($_POST['reporting_manager']) && $_POST['reporting_manager']!='') {
+				$emp_form->setDefault('reporting_manager',$_POST['reporting_manager']);
+			}
 		}
 		else{
 			$msgarray['reporting_manager'] = 'Reporting managers are not added yet.';

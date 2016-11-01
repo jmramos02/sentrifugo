@@ -172,7 +172,6 @@ class Default_Form_wizardpreference extends Zend_Form
         $workcodename->setRegisterInArrayValidator(false);
         $workcodename->setRequired(true);
 		$workcodename->addValidator('NotEmpty', false, array('messages' => 'Please select employment status.'));
-		
         
         $empCode = new Zend_Form_Element_Text('employee_code');
         $empCode->addFilter(new Zend_Filter_StringTrim());

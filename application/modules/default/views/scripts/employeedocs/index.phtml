@@ -283,7 +283,7 @@ $(document).ready(function(){
 
     			// Validate file with size greater than default (Upload Max Filesize) limit
     			if (data.error == 'filesize') {
-    				$("span#errors-doc_attachment").html('File size exceeds the limit of 2);
+    				$("span#errors-doc_attachment").html('File size exceeds the limit of 2');
     	    	} else if (data.error.length > 0) {
     	    		$("span#errors-doc_attachment").html('Something went wrong.');
     	    	}
@@ -474,6 +474,7 @@ function updateEmpDoc(){
 	var userid = $('#userid').val();
 	var doc_name = $('#edit_document_name').val();
 	var doc_id = $("#doc_id").val();
+    var has_copy = $("#hascopy").is(":checked");
 	var file_original_names = $('#edit_file_original_names').val();
 	var file_new_names = $('#edit_file_new_names').val();
 
@@ -481,19 +482,20 @@ function updateEmpDoc(){
 	$('#errors-edit_document_name').html('');
 	$('#errors-doc_attachment_edit').html('');
 	$("#fileuploadedit_error").remove();
+	console.log('userid='+userid+'&doc_name='+doc_name+'&doc_id='+doc_id+'&file_original_names='+file_original_names+'&file_new_names='+file_new_names+'&hascopy='+has_copy);
 	
 	if(doc_name!='' && file_original_names!='') {	
 		$.ajax({
 			url: base_url+'/employeedocs/update',
 			type: "POST",
 			dataType: 'json',
-			data: 'userid='+userid+'&doc_name='+doc_name+'&doc_id='+doc_id+'&file_original_names='+file_original_names+'&file_new_names='+file_new_names,
+			data: 'userid='+userid+'&doc_name='+doc_name+'&doc_id='+doc_id+'&file_original_names='+file_original_names+'&file_new_names='+file_new_names+'&hascopy='+has_copy,
 			success: function(response) {
 				if(response['result']=='success')
 					successmessage_changestatus_url_edit('Document updated successfully.','success','employeedocs',base_url+'/employeedocs/index/userid/'+userid);
 				if(response['result']=='exists')
 					$('#errors-edit_document_name').html('Document name already exists.');
-			}
+			},
 		});
 	} else {
 		if(doc_name == '')
