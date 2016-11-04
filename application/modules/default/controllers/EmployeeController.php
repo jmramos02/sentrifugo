@@ -1080,6 +1080,17 @@ class Default_EmployeeController extends Zend_Controller_Action
 								$report_opt = $reportingManagerData;
 							}
 							$employeeform->setDefault('reporting_manager',$data['reporting_manager']);
+							
+							$submanagerModel = new Default_Model_Employeesubmanagers();
+							$submanagers = $submanagerModel->getEmployeeSubManagers($data['user_id']);
+							$submanagerIds = "";
+							$submanagerDesc = "";
+							foreach($submanagers as $submanager) {
+								$submanagerIds = $submanagerIds . $submanager['user_id'] . ',';
+								$submanagerDesc = $submanagerDesc . $submanager['userfullname'] . ',';
+							}
+							$employeeform->setDefault('selectedIds', $submanagerIds);
+							$employeeform->setDefault('selectedDescs', $submanagerDesc);
 
 							$this->view->id = $id;
 							$this->view->form = $employeeform;
@@ -1644,12 +1655,90 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 					$user_data['employeeId'] = $emp_id;
 				}
 				$user_status = $usersModel->SaveorUpdateUserData($user_data, $user_where);
-				
+
 				if($user_status != 'update') {
 					$submanagersModel = new Default_Model_Employeesubmanagers();
 					for($index = 0; $index < count($submanagers); ++$index) {
 						$submanagersModel->addSubmanagers($user_status, $submanagers[$index]);
 					}
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'COE',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'NBI Clearance',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Barangay Clearance',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Police Clearance',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Police Clearance',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Medical',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Transcript of Records',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+
+					$docData = array(
+						'user_id' => $user_status,
+						'name' => 'Diploma',
+						'attachments' => json_encode([]),
+						'modifiedby' => $loginUserId,
+						'modifieddate'=>gmdate("Y-m-d H:i:s")
+					);
+					$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
+				} else {
+					$submanagersModel = new Default_Model_Employeesubmanagers();
+					$submanagersModel->delete('user_id=' . $user_id);
+					for($index = 0; $index < count($submanagers); ++$index) {
+						$submanagersModel->addSubmanagers($user_id, $submanagers[$index]);
+					}				
 				}
                       
 				if($id == '')
@@ -1698,78 +1787,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 				}
 
 				$Id = $employeeModal->SaveorUpdateEmployeeData($data, $where);
-				
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'COE',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
 
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'NBI Clearance',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Barangay Clearance',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Police Clearance',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Police Clearance',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Medical',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Transcript of Records',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
-				
-				$docData = array(
-					'user_id' => $user_id,
-					'name' => 'Diploma',
-					'attachments' => json_encode([]),
-					'modifiedby' => $loginUserId,
-					'modifieddate'=>gmdate("Y-m-d H:i:s")
-				);
-				$employeeDocsModel->SaveorUpdateEmpDocuments($docData);
 
 				$statuswhere = array('id=?'=>$user_id);
                                 if($id != '')

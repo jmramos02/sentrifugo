@@ -965,13 +965,13 @@ CREATE TABLE `main_employees` (
   UNIQUE KEY `unique_user_id` (`user_id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-DROP TABLE IF EXISTS `main_employees_submanagers`;
+DROP TABLE IF EXISTS `employee_submanagers`;
 
 CREATE TABLE `employee_submanagers` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned NOT NULL,
   `submanager_id` int(11) unsigned NOT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `main_employees` */

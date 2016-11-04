@@ -3067,19 +3067,34 @@ function displayReportingmanagers_emp(ele,eleId,role_id,empId)
                     $('#s2id_'+eleId).find('a.select2-choice').find('span').html('Select a Reporting Manager');
 
                 }
-                else if(response != '' && response != 'null' && $.trim(response) != 'nomanagers')
-                {								
-                    if($("#errors-"+eleId).is(':visible'))
-                        $("#errors-"+eleId).hide();
-                        $("#loader").remove();
-                    $("#"+eleId).html(response);  
-                }
-                else
-                {
-                    $("#"+eleId).html("<option value='' label='select a Reporting Manager'>Select a Reporting Manager</option>");							 
-                    $('#s2id_'+eleId).find('a.select2-choice').find('span').html('Select a Reporting Manager');
-                }						  	
-            }
+				else if(response != '' && response != 'null' && $.trim(response) != 'nomanagers')
+				{
+					if($("#errors-"+eleId).is(':visible'))
+						$("#errors-"+eleId).hide();
+					$("#loader").remove();
+					$("#"+eleId).html(response);
+					
+					var ids = $("#selectedIds").val().split(",");
+					var submanagersData = document.getElementById('submanagers');
+
+					for(var j = 0; j <= ids.length; j++) {
+
+						for(var i = 0; i <= submanagersData.length; ++i) {
+							if(submanagersData.options[i] !== undefined) {
+								if(submanagersData.options[i].value === ids[j]) {
+									submanagersData.options[i].selected = true;
+								}
+							}
+						}
+					}
+					
+				}
+				else
+				{
+					$("#"+eleId).html("<option value='' label='select a Reporting Manager'>Select a Reporting Manager</option>");
+					$('#s2id_'+eleId).find('a.select2-choice').find('span').html('Select a Reporting Manager');
+				}
+			}
         });
     }
     else 

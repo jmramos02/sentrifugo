@@ -18,6 +18,8 @@
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
+
+
 ?>
 
 <?php if(empty($this->data)){?>
@@ -455,9 +457,12 @@ $report_opt = $this->report_opt;
 				<?php } else {?>
 				   <span class="errors" id="errors-<?php echo $this->form->submanagers->getId(); ?>" style="display:none;"></span> 
 				<?php }?>
+                    <div id="submanager-division"></div>
 				</div>
 
-
+                <?php echo $this->form->selected; ?>
+                <?php echo $this->form->selectedIds; ?>
+                <?php echo $this->form->selectedDescs; ?>
 			<div class="new-form-ui-submit">
 					<?php echo $this->form->submit; ?>
 					<button onclick="window.location.href='<?php echo BASE_URL; ?>employee';" type="button" id="Cancel" name="Cancel">Cancel</button>
@@ -920,7 +925,15 @@ $("#emprole").change(function()
 			 }	 	 
 		}
 	});
-	
+    var descs = $("#selectedDescs").val().split(",");
+    var htmlHAHA = "<br><br><br>"
+    for(var j = 0; j <= descs.length; j++) {
+        if(descs[j] == "") {
+            break;
+        }
+        htmlHAHA += "<span>" + descs[j] +  "</span> <br/>"
+    }
+    $("#submanager-division").html(htmlHAHA);
 });//end of ready function
 </script>
 <?php } ?>

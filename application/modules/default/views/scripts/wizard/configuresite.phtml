@@ -257,12 +257,12 @@ var errorMsg = "<?php if(isset($this->msgarray['workcodename'])) echo $this->msg
 var workcodenameArr = workcodename.split(",");
 var workcodenameData = document.getElementById('workcodename');
 for(var j = 0 ; j <= workcodenameArr.length ; j++)
-{	
+{
 	for(var i = 0 ; i <= workcodenameData.length ; i++)
 	{
 		if(workcodenameData.options[i] !== undefined)
 		{
-			if(workcodenameData.options[i].value === workcodenameArr[j]) 
+			if(workcodenameData.options[i].value === workcodenameArr[j])
 			{
 				if(errorMsg != '' && errorMsg != 'undefined')
 				workcodenameData.options[i].selected = false;

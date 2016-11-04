@@ -2,28 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac53027c-ac10-40f2-a719-b7b3572af07a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/PHPMailerAutoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/Callback_function_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/DomainKeys_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/Note_for_SMTP_debugging.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/extending.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/generatedocs.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/docs/pop3_article.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/code_generator.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/contents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/contentsutf8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/exceptions.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/gmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/images/phpmailer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/images/phpmailer_mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/mail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/mailing_list.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/pop_before_smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/scripts/XRegExp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/scripts/shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/scripts/shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/scripts/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/scripts/shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/send_file_upload.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/sendmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/smtp_check.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/smtp_no_auth.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/ssl_options.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeAppleScript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/shThemeVisualStudio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/examples/styles/wrapping.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/extras/EasyPeasyICS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/extras/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/extras/class.html2text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/extras/htmlfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/extras/ntlm_sasl_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-am.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-az.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-be.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-bg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-br.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-cz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-dk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-el.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-eo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-es.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-et.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-fa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-fi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-fo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-fr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-gl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-he.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-hr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-hu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-id.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-it.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ja.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ka.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ko.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-lt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-lv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-nl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-no.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-pt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-ru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-se.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-sk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-sl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-sr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-tr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-uk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-vi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-zh.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/fakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/fakesendmail.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/phpmailerLangTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/phpmailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/runfakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/PHPMailer/test/testbootstrap-dist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/browserfailure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/hrms.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/accr_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/accr_arrow_act.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/browsers_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/button_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/chosen-sprite2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/error_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/logo_in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/logo_old.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/no_ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/pdf_down_ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/previous_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/status_no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/status_yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/images/yes_ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/installheader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step5.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php" afterPath="$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/controllers/EmployeedocsController.php" afterPath="$PROJECT_DIR$/application/modules/default/controllers/EmployeedocsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/controllers/LeaverequestController.php" afterPath="$PROJECT_DIR$/application/modules/default/controllers/LeaverequestController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/forms/Employeereport.php" afterPath="$PROJECT_DIR$/application/modules/default/forms/Employeereport.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/forms/employee.php" afterPath="$PROJECT_DIR$/application/modules/default/forms/employee.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/forms/wizardpreference.php" afterPath="$PROJECT_DIR$/application/modules/default/forms/wizardpreference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/models/Employee.php" afterPath="$PROJECT_DIR$/application/modules/default/models/Employee.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/models/Usermanagement.php" afterPath="$PROJECT_DIR$/application/modules/default/models/Usermanagement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/add.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/add.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/models/EmployeeSubmanagers.php" afterPath="$PROJECT_DIR$/application/modules/default/models/EmployeeSubmanagers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/view.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employee/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/reports/employeereport.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/reports/employeereport.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/view.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml" afterPath="$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/hrms.sql" afterPath="$PROJECT_DIR$/install/hrms.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/application_constants.php" afterPath="$PROJECT_DIR$/public/application_constants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/db_constants.php" afterPath="$PROJECT_DIR$/public/db_constants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mail_settings_constants.php" afterPath="$PROJECT_DIR$/public/mail_settings_constants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/media/js/hrms.js" afterPath="$PROJECT_DIR$/public/media/js/hrms.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/site_constants.php" afterPath="$PROJECT_DIR$/public/site_constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/success.php" afterPath="$PROJECT_DIR$/success.php" />
     </list>
     <ignored path="sentrifugo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,45 +184,120 @@
     <favorites_list name="sentrifugo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Usermanagement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/default/models/Usermanagement.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Employee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+            <state relative-caret-position="435">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
               <folding>
-                <marker date="1476964791000" expanded="true" signature="4735:5020" ph="select date(... " />
-                <marker date="1476964791000" expanded="true" signature="5146:5307" ph="select * fro... ${$tot_query}" />
-                <marker date="1476964791000" expanded="true" signature="5519:5966" ph="select u.use... " />
-                <marker date="1476964791000" expanded="true" signature="6353:6805" ph="select u.use... " />
-                <marker date="1476964791000" expanded="true" signature="6953:7110" ph="select * fro... ${$query}" />
-                <marker date="1476964791000" expanded="true" signature="8665:8735" ph="select count... main_users" />
-                <marker date="1476964791000" expanded="true" signature="8970:9372" ph="select u.id,... main_users" />
-                <marker date="1476964791000" expanded="true" signature="9696:9758" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="12339:12630" ph="select u.id,... main_users" />
-                <marker date="1476964791000" expanded="true" signature="12339:12903" ph="select u.id,... " />
-                <marker date="1476964791000" expanded="true" signature="12675:12903" ph="select u.id,... main_users" />
-                <marker date="1476964791000" expanded="true" signature="13433:13581" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="13625:13799" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="13846:14022" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="14263:14411" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="14455:14647" ph="update main_... " />
-                <marker date="1476964791000" expanded="true" signature="14816:14981" ph="select b.id main_users" />
+                <marker date="1477365696000" expanded="true" signature="3270:3507" ph="select GROUP... main_roles" />
+                <marker date="1477365696000" expanded="true" signature="3906:4196" ph="SELECT e.*,u... main_employees" />
+                <marker date="1477365696000" expanded="true" signature="5981:6037" ph="select count... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="8454:8509" ph="select count... main_users" />
+                <marker date="1477365696000" expanded="true" signature="8735:8933" ph="select r.rol... main_users" />
+                <marker date="1477365696000" expanded="true" signature="9447:9514" ph="select count... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="9740:9849" ph="select * fro... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="14678:16093" ph="select * fro... id" />
+                <marker date="1477365696000" expanded="true" signature="14694:15415" ph="select u.id main_users" />
+                <marker date="1477365696000" expanded="true" signature="15466:16002" ph="select u.id main_users" />
+                <marker date="1477365696000" expanded="true" signature="16631:16956" ph="select u.id main_users" />
+                <marker date="1477365696000" expanded="true" signature="17425:17515" ph="select * fro... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="17996:18068" ph="select user_... main_employees" />
+                <marker date="1477365696000" expanded="true" signature="18899:19027" ph="UPDATE main_... " />
+                <marker date="1477365696000" expanded="true" signature="19654:19853" ph="UPDATE main_... " />
+                <marker date="1477365696000" expanded="true" signature="19898:20124" ph="UPDATE main_... " />
+                <marker date="1477365696000" expanded="true" signature="20227:20401" ph="UPDATE main_... " />
+                <marker date="1477365696000" expanded="true" signature="20495:20646" ph="UPDATE main_... " />
+                <marker date="1477365696000" expanded="true" signature="21171:21732" ph="SELECT u.id,... main_users" />
+                <marker date="1477365696000" expanded="true" signature="21793:22378" ph="SELECT u.id,... main_users" />
+                <marker date="1477365696000" expanded="true" signature="22947:23192" ph="select e.use... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="23768:24181" ph="select case main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="24487:24596" ph="select e.use... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="24995:25085" ph="select e.use... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="25291:25350" ph="select e.* f... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="25578:25630" ph="select prefi... main_prefix" />
+                <marker date="1477365696000" expanded="true" signature="26026:26079" ph="select rolet... main_roles" />
+                <marker date="1477365696000" expanded="true" signature="26480:26550" ph="select rolet... main_roles" />
+                <marker date="1477365696000" expanded="true" signature="26945:27006" ph="select unitc... main_businessunits" />
+                <marker date="1477365696000" expanded="true" signature="27407:27467" ph="select id,fr... main_payfrequency" />
+                <marker date="1477365696000" expanded="true" signature="27863:27923" ph="select id,cu... main_currency" />
+                <marker date="1477365696000" expanded="true" signature="28323:28382" ph="select deptc... main_departments" />
+                <marker date="1477365696000" expanded="true" signature="28779:28840" ph="select jobti... main_jobtitles" />
+                <marker date="1477365696000" expanded="true" signature="29246:29307" ph="select posit... main_positions" />
+                <marker date="1477365696000" expanded="true" signature="29709:29781" ph="select emplo... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="30186:30260" ph="select workc... main_employmentstatus" />
+                <marker date="1477365696000" expanded="true" signature="30670:30773" ph="select workc... main_employmentstatus" />
+                <marker date="1477365696000" expanded="true" signature="31207:31292" ph="select user_... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="31543:31609" ph="select user_... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="32051:32153" ph="select ifnul... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="32570:32633" ph="select uniti... main_departments" />
+                <marker date="1477365696000" expanded="true" signature="33040:33128" ph="select jobti... main_positions" />
+                <marker date="1477365696000" expanded="true" signature="33667:33777" ph="select count... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="34031:34301" ph="select es.id... main_employees_summary" />
+                <marker date="1477365696000" expanded="true" signature="34145:34280" ph="select s.use... main_employees_summary" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employeesubmanagers.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employeesubmanagers.php">
+      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="420">
+              <caret line="461" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="461" selection-end-column="0" />
               <folding>
-                <marker date="1477978936000" expanded="true" signature="303:310" ph="SELECT e.*,u... main_employees" />
-                <marker date="1477978936000" expanded="true" signature="303:323" ph="SELECT e.* m... " />
-                <marker date="1477978936000" expanded="true" signature="303:443" ph="SELECT e.*, employee_submanagers" />
+                <marker date="1478054425000" expanded="true" signature="2116:2130" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16095">
+              <caret line="1091" column="0" selection-start-line="1091" selection-start-column="0" selection-end-line="1091" selection-end-column="0" />
+              <folding>
+                <marker date="1478053990000" expanded="false" signature="21296:21383" ph="..." />
+                <marker date="1478053990000" expanded="true" signature="21384:21807" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="21417:21431" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="21476:21509" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="21600:21622" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="21675:21689" ph="..." />
+                <marker date="1478053990000" expanded="true" signature="80222:80325" ph="Select d.id,... main_departments" />
+                <marker date="1478053990000" expanded="true" signature="88530:88844" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="88694:88716" ph="..." />
+                <marker date="1478053990000" expanded="false" signature="88783:88797" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hrms.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/media/js/hrms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46185">
+              <caret line="3079" column="20" selection-start-line="3079" selection-start-column="20" selection-end-line="3079" selection-end-column="20" />
+              <folding>
+                <marker date="1478053961000" expanded="true" signature="8375:8389" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="9118:9132" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="9930:9944" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="97139:97154" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="97294:97306" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="97341:97356" ph="..." />
+                <marker date="1478053961000" expanded="true" signature="151743:151757" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuresite.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3465">
+              <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,28 +315,30 @@
         <option value="$PROJECT_DIR$/application/modules/default/views/scripts/myemployees/employeereport.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/controllers/ReportsController.php" />
         <option value="$PROJECT_DIR$/application/modules/default/views/scripts/mydetails/documents.phtml" />
-        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employee/view.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/forms/Employeereport.php" />
         <option value="$PROJECT_DIR$/application/modules/default/views/scripts/reports/employeereport.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/library/sapp/Global.php" />
-        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml" />
-        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/controllers/EmployeedocsController.php" />
         <option value="$PROJECT_DIR$/application/modules/default/models/Usermanagement.php" />
-        <option value="$PROJECT_DIR$/install/hrms.sql" />
         <option value="$PROJECT_DIR$/application/modules/default/models/Employee.php" />
-        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/forms/wizardpreference.php" />
-        <option value="$PROJECT_DIR$/application/modules/default/forms/employee.php" />
-        <option value="$PROJECT_DIR$/public/media/js/hrms.js" />
-        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employee/add.phtml" />
         <option value="$PROJECT_DIR$/application/modules/default/models/EmployeeSubmanagers.php" />
         <option value="$PROJECT_DIR$/application/modules/default/controllers/LeaverequestController.php" />
         <option value="$PROJECT_DIR$/application/modules/default/models/Employees.php" />
-        <option value="$PROJECT_DIR$/application/modules/default/models/Employeesubmanagers.php" />
-        <option value="$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php" />
+        <option value="$PROJECT_DIR$/patches/patches_2.0/application/layouts/scripts/analyticsheader.phtml" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employee/view.phtml" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/view.phtml" />
         <option value="$PROJECT_DIR$/install_old/hrms.sql" />
+        <option value="$PROJECT_DIR$/install/hrms.sql" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml" />
+        <option value="$PROJECT_DIR$/application/modules/default/forms/employee.php" />
+        <option value="$PROJECT_DIR$/application/modules/default/models/Employeesubmanagers.php" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml" />
+        <option value="$PROJECT_DIR$/public/media/js/hrms.js" />
+        <option value="$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php" />
+        <option value="$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml" />
       </list>
     </option>
   </component>
@@ -195,6 +412,150 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentrifugo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,12 +655,13 @@
       <workItem from="1477185748067" duration="1892000" />
       <workItem from="1477313767016" duration="16428000" />
       <workItem from="1477461135390" duration="7000" />
-      <workItem from="1477952046496" duration="15852000" />
+      <workItem from="1477952046496" duration="30113000" />
+      <workItem from="1478141950984" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99355000" />
+    <option name="totallyTimeSpent" value="113618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -308,40 +670,21 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.48557693" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48433736" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14663805" sideWeight="0.4784946" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14663805" sideWeight="0.52150536" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21745351" sideWeight="0.48557693" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48433736" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14663805" sideWeight="0.4784946" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14663805" sideWeight="0.52150536" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -359,91 +702,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Zend/Cloud/DocumentService/Adapter/SimpleDb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="225" column="28" selection-start-line="225" selection-start-column="28" selection-end-line="225" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zend/Pdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="272" column="45" selection-start-line="272" selection-start-column="45" selection-end-line="272" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zend/Cloud/DocumentService/Adapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/library/PHPMailer/changelog.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/PHPMailer/changelog.md" />
-    <entry file="file://$PROJECT_DIR$/data/PHPMailer/changelog.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="235" column="4" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zend/Cloud/DocumentService/Adapter/AbstractAdapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zend/Search/Lucene/MultiSearcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="781" column="48" selection-start-line="781" selection-start-column="48" selection-end-line="781" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/myemployees/docedit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="401" column="28" selection-start-line="401" selection-start-column="28" selection-end-line="401" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/public/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/CHANGELOG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/ManageremployeevacationsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/library/sapp/Global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employeedocs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -455,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="1030" column="20" selection-start-line="1030" selection-start-column="20" selection-end-line="1030" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -483,13 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6990">
-          <caret line="484" column="171" selection-start-line="484" selection-start-column="171" selection-end-line="484" selection-end-column="171" />
         </state>
       </provider>
     </entry>
@@ -532,10 +776,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employee.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/application/modules/default/views/scripts/employee/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3493">
+          <caret line="448" column="7" selection-start-line="448" selection-start-column="7" selection-end-line="448" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Weekdays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="132" column="3" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/wizardfooter.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="860" column="0" selection-start-line="860" selection-start-column="0" selection-end-line="860" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/wizardpreference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/WizardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="467" column="73" selection-start-line="467" selection-start-column="73" selection-end-line="467" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="616" column="0" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/Usermanagement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/hrms.sql" />
+    <entry file="file://$PROJECT_DIR$/install/hrms.sql" />
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Usermanagement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/accountclasstype/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="319" column="22" selection-start-line="319" selection-start-column="22" selection-end-line="319" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/uploaddelete.ajax.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/edit.ajax.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/Zend/View/Helper/Menubuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/LeaverequestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="635" column="30" selection-start-line="635" selection-start-column="30" selection-end-line="635" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/application/layouts/scripts/analyticsheader.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="887" column="97" selection-start-line="887" selection-start-column="96" selection-end-line="887" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/hrms.sql" />
+    <entry file="file://$PROJECT_DIR$/install/hrms.sql" />
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employeedocs/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="125" column="93" selection-start-line="125" selection-start-column="93" selection-end-line="125" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/ConfiguresiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/patches_1.1.7/application/modules/default/controllers/WizardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="394" column="33" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/employee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="518" column="281" selection-start-line="518" selection-start-column="281" selection-end-line="518" selection-end-column="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employeesubmanagers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3465">
+          <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/media/js/hrms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46185">
+          <caret line="3079" column="20" selection-start-line="3079" selection-start-column="20" selection-end-line="3079" selection-end-column="20" />
+          <folding>
+            <marker date="1478053961000" expanded="true" signature="8375:8389" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="9118:9132" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="9930:9944" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="97139:97154" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="97294:97306" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="97341:97356" ph="..." />
+            <marker date="1478053961000" expanded="true" signature="151743:151757" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16095">
+          <caret line="1091" column="0" selection-start-line="1091" selection-start-column="0" selection-end-line="1091" selection-end-column="0" />
+          <folding>
+            <marker date="1478053990000" expanded="false" signature="21296:21383" ph="..." />
+            <marker date="1478053990000" expanded="true" signature="21384:21807" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="21417:21431" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="21476:21509" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="21600:21622" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="21675:21689" ph="..." />
+            <marker date="1478053990000" expanded="true" signature="80222:80325" ph="Select d.id,... main_departments" />
+            <marker date="1478053990000" expanded="true" signature="88530:88844" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="88694:88716" ph="..." />
+            <marker date="1478053990000" expanded="false" signature="88783:88797" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
           <folding>
             <marker date="1477365696000" expanded="true" signature="3270:3507" ph="select GROUP... main_roles" />
             <marker date="1477365696000" expanded="true" signature="3906:4196" ph="SELECT e.*,u... main_employees" />
@@ -586,311 +1059,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patches/patches_2.0/application/modules/default/views/scripts/employee/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3493">
-          <caret line="448" column="7" selection-start-line="448" selection-start-column="7" selection-end-line="448" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Weekdays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="132" column="3" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <marker date="1471348466000" expanded="true" signature="3053:3114" ph="SELECT * FRO... main_weekdays" />
-            <marker date="1471348466000" expanded="true" signature="4693:4792" ph="select w.id,... main_weekdays" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/wizardfooter.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/wizard/configuresite.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="200" column="56" selection-start-line="200" selection-start-column="56" selection-end-line="200" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="494" column="39" selection-start-line="494" selection-start-column="39" selection-end-line="494" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/wizardpreference.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/WizardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="467" column="73" selection-start-line="467" selection-start-column="73" selection-end-line="467" selection-end-column="73" />
-          <folding>
-            <marker date="1471348466000" expanded="true" signature="7002:7055" ph="UPDATE main_... " />
-            <marker date="1471348466000" expanded="true" signature="7163:7222" ph="UPDATE main_... " />
-            <marker date="1471348466000" expanded="true" signature="7431:7549" ph="UPDATE main_... " />
-            <marker date="1471348466000" expanded="true" signature="7652:7780" ph="UPDATE main_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#1;n#div#40;n#div#0;n#form#0;n#div#1;n#div#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="616" column="0" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
-          <folding>
-            <marker date="1471348466000" expanded="true" signature="2288:2480" ph="update main_... " />
-            <marker date="1471348466000" expanded="true" signature="5358:5581" ph="select u.id,... main_users" />
-            <marker date="1471348466000" expanded="true" signature="6636:6975" ph="select * fro... id" />
-            <marker date="1471348466000" expanded="true" signature="6652:6975" ph="SELECT u.id,... main_users" />
-            <marker date="1471348466000" expanded="true" signature="9287:9811" ph="SELECT u.id,... main_users" />
-            <marker date="1471348466000" expanded="true" signature="10190:10208" ph="select * fro... " />
-            <marker date="1471348466000" expanded="true" signature="10983:11465" ph="select * fro... id" />
-            <marker date="1471348466000" expanded="true" signature="10999:11465" ph="SELECT u.id,... main_users" />
-            <marker date="1471348466000" expanded="true" signature="13858:13920" ph="update main_... " />
-            <marker date="1471348466000" expanded="true" signature="14300:14432" ph="select um.em... main_users" />
-            <marker date="1471348466000" expanded="true" signature="14668:14802" ph="update main_... " />
-            <marker date="1471348466000" expanded="true" signature="14837:14922" ph="update main_... " />
-            <marker date="1471348466000" expanded="true" signature="15710:15806" ph="update main_... " />
-            <marker date="1471348466000" expanded="true" signature="16591:16914" ph="select d.add... main_departments" />
-            <marker date="1471348466000" expanded="true" signature="17124:17429" ph="select d.add... main_organisationinfo" />
-            <marker date="1471348466000" expanded="true" signature="17600:17996" ph="INSERT INTO `main_userloginlog`... " />
-            <marker date="1471348466000" expanded="true" signature="18306:18479" ph="select g.id,... main_users" />
-            <marker date="1471348466000" expanded="true" signature="18334:18416" ph="select count... main_logmanager" />
-            <marker date="1471348466000" expanded="true" signature="18912:18990" ph="select o.org... main_organisationinfo" />
-            <marker date="1471348466000" expanded="true" signature="19495:19636" ph="select ob.id... main_users" />
-            <marker date="1471348466000" expanded="true" signature="20371:20418" ph="SELECT count... main_mail_settings" />
-            <marker date="1471348466000" expanded="true" signature="20550:20811" ph="UPDATE main_... " />
-            <marker date="1471348466000" expanded="true" signature="20888:21155" ph="INSERT INTO main_mail_settings... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/media/js/hrms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="3076" column="24" selection-start-line="3076" selection-start-column="24" selection-end-line="3076" selection-end-column="24" />
-          <folding>
-            <marker date="1477967723000" expanded="true" signature="8375:8389" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="9118:9132" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="9930:9944" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="97139:97154" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="97294:97306" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="97341:97356" ph="..." />
-            <marker date="1477967723000" expanded="true" signature="151693:151707" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/default/views/scripts/employee/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="552" column="3" selection-start-line="552" selection-start-column="3" selection-end-line="552" selection-end-column="3" />
+          <caret line="461" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="461" selection-end-column="0" />
           <folding>
-            <element signature="e#27731#27752#0#HTML" expanded="true" />
-            <marker date="1477968307000" expanded="true" signature="2114:2128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/forms/Usermanagement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/LeaverequestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="617" column="22" selection-start-line="617" selection-start-column="22" selection-end-line="617" selection-end-column="22" />
-          <folding>
-            <marker date="1477974587000" expanded="true" signature="20012:22051" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20165:21844" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="20254:20359" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20378:21824" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20408:21816" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20412:20602" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="20461:20492" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20647:20819" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="20684:20715" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="20846:21018" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="20883:20914" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="21063:21217" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21100:21131" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="21244:21390" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21281:21312" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="21435:21594" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21472:21503" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="21617:21791" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21654:21685" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21870:21892" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="21959:21973" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="22711:24564" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="22874:24564" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="22963:23068" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23087:24544" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23117:24536" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23121:23311" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="23170:23201" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23356:23528" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="23393:23424" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23555:23727" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="23592:23623" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23772:23926" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="23809:23840" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="23953:24099" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="23990:24021" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="24144:24303" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="24181:24212" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="24326:24511" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="24363:24394" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="24995:26999" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25113:26792" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="25202:25307" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25326:26772" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25356:26764" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25360:25550" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="25409:25440" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25595:25767" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="25632:25663" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="25794:25966" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="25831:25862" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="26011:26165" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26048:26079" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="26192:26338" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26229:26260" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="26383:26542" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26420:26451" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="26565:26739" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26602:26633" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26818:26840" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="26907:26921" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="27399:29202" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="27521:28983" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="27610:27715" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="27734:28963" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="27764:28955" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="27768:27958" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="27817:27848" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="28003:28175" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="28040:28071" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="28202:28356" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="28239:28270" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="28401:28547" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="28438:28469" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="28568:28726" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="28603:28634" ph="..." />
-            <marker date="1477974587000" expanded="true" signature="28771:28930" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="28808:28839" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="29009:29031" ph="..." />
-            <marker date="1477974587000" expanded="false" signature="29098:29112" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employees.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Usermanagement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
-          <folding>
-            <marker date="1476964791000" expanded="true" signature="4735:5020" ph="select date(... " />
-            <marker date="1476964791000" expanded="true" signature="5146:5307" ph="select * fro... ${$tot_query}" />
-            <marker date="1476964791000" expanded="true" signature="5519:5966" ph="select u.use... " />
-            <marker date="1476964791000" expanded="true" signature="6353:6805" ph="select u.use... " />
-            <marker date="1476964791000" expanded="true" signature="6953:7110" ph="select * fro... ${$query}" />
-            <marker date="1476964791000" expanded="true" signature="8665:8735" ph="select count... main_users" />
-            <marker date="1476964791000" expanded="true" signature="8970:9372" ph="select u.id,... main_users" />
-            <marker date="1476964791000" expanded="true" signature="9696:9758" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="12339:12630" ph="select u.id,... main_users" />
-            <marker date="1476964791000" expanded="true" signature="12339:12903" ph="select u.id,... " />
-            <marker date="1476964791000" expanded="true" signature="12675:12903" ph="select u.id,... main_users" />
-            <marker date="1476964791000" expanded="true" signature="13433:13581" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="13625:13799" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="13846:14022" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="14263:14411" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="14455:14647" ph="update main_... " />
-            <marker date="1476964791000" expanded="true" signature="14816:14981" ph="select b.id main_users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/controllers/EmployeeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1637" column="67" selection-start-line="1637" selection-start-column="67" selection-end-line="1637" selection-end-column="67" />
-          <folding>
-            <marker date="1477979192000" expanded="false" signature="21296:21383" ph="..." />
-            <marker date="1477979192000" expanded="true" signature="21384:21807" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="21417:21431" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="21476:21509" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="21600:21622" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="21675:21689" ph="..." />
-            <marker date="1477979192000" expanded="true" signature="79303:79406" ph="Select d.id,... main_departments" />
-            <marker date="1477979192000" expanded="true" signature="87611:87925" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="87775:87797" ph="..." />
-            <marker date="1477979192000" expanded="false" signature="87864:87878" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/hrms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="973" column="20" selection-start-line="973" selection-start-column="20" selection-end-line="973" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/default/models/Employeesubmanagers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <marker date="1477978936000" expanded="true" signature="303:310" ph="SELECT e.*,u... main_employees" />
-            <marker date="1477978936000" expanded="true" signature="303:323" ph="SELECT e.* m... " />
-            <marker date="1477978936000" expanded="true" signature="303:443" ph="SELECT e.*, employee_submanagers" />
+            <marker date="1478054425000" expanded="true" signature="2116:2130" ph="..." />
           </folding>
         </state>
       </provider>

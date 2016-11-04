@@ -354,17 +354,6 @@ class Default_Form_employee extends Zend_Form
         $submanagers->setLabel("Submanagers");
         $submanagers->setRegisterInArrayValidator(false);
         $submanagers->addValidator('NotEmpty', false, array('messages' => 'Please select submanagers status.'));
-        
-        if($controller_name != 'organisationinfo')
-        {
-            $submanagers->setRequired(true);
-        }
-        $submanagers->addValidator(new Zend_Validate_Db_RecordExists(
-            array('table' => 'main_users',
-                'field' => 'id',
-                'exclude'=>'isactive = 1',
-            )));
-        $submanagers->getValidator('Db_RecordExists')->setMessage('Selected submanager is inactivated.');
         $submanagers->setAttrib("class", "formDataElement");
 
         if($controller_name != 'organisationinfo')
@@ -491,6 +480,12 @@ class Default_Form_employee extends Zend_Form
             }
         }
 
+        $selectedSubManagerIds = new Zend_Form_Element_Hidden('selectedIds');
+        $selectedSubManagerIds->setValue("");
+        
+        $selectedSubManagerDescriptions = new Zend_Form_Element_Hidden('selectedDescs');
+        $selectedSubManagerDescriptions->setValue("");
+        
         $emprole = new Zend_Form_Element_Select("emprole");
         $emprole->setRegisterInArrayValidator(false);
         $emprole->setRequired(true);
@@ -521,7 +516,7 @@ class Default_Form_employee extends Zend_Form
             $modeofentry,$candidatereferredby,$rccandidatename,$emailaddress,
             $emprole,$hid_modeofentry,$hid_rccandidatename,$other_modeofentry,$act_inact,
             $disp_requi,$first_name,$last_name, $sss, $salaryLoan, $sssLoan, $pagibig, $pagibigLoan, $developmentProject,
-            $taxShield, $tin, $bankAccountNumber, $payslipPassword, $evaluationPassword, $taxCode, $incentive, $representationAllowance, $salesIncentive, $generalAdjustment, $philhealth, $transportationAllowance, $submanagers));
+            $taxShield, $tin, $bankAccountNumber, $payslipPassword, $evaluationPassword, $taxCode, $incentive, $representationAllowance, $salesIncentive, $generalAdjustment, $philhealth, $transportationAllowance, $submanagers, $selectedSubManagerIds, $selectedSubManagerDescriptions));
         $this->setElementDecorators(array('ViewHelper'));
         $this->setElementDecorators(array(
             'UiWidgetElement',

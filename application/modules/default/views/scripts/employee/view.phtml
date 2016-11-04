@@ -18,6 +18,9 @@
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
+$auth = Zend_Auth::getInstance();
+$loginuserGroup = $auth->getStorage()->read()->group_id;
+
 ?>
 
 <?php if(empty($this->empdata)){?>
@@ -253,6 +256,7 @@ $data = $this->data;
 				   <span class="errors" id="errors-<?php echo $this->form->office_faxnumber->getId(); ?>"><?php echo $this->msgarray['office_faxnumber'];?></span>
 				<?php }?>
 				</div>
+                <?php if(in_array($loginuserGroup, [HR_GROUP, SYSTEMADMIN_GROUP])) {?>
 				<div class="new-form-ui" >
                     <label class="required"><?php echo $this->form->sss->getLabel(); ?></label>
                     <div class="division">
@@ -375,6 +379,7 @@ $data = $this->data;
                     </div>
                     <span id="errors-<?php echo $this->form->generalAdjustment->getId(); ?>" class="errors"><?php echo isset($this->msgarray['generalAdjustment'])?$this->msgarray['generalAdjustment']:"";?></span>
                 </div>
+                <?php }?>
 
 			 
 	</div>

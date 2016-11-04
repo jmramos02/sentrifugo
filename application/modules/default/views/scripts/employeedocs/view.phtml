@@ -87,7 +87,8 @@ if(empty($this->empdata)){?>
 			?>
 			<div id="emp_docs_<?php echo $empDoc[$i]['id'];?>" class="docment_row">
 				<div class="view_list">
-					<div class="doc_name_div"><?php echo $empDoc[$i]['name'];?> 
+					<div class="doc_name_div"><?php echo $empDoc[$i]['name'];?>
+
 						<?php if($atts>0){?>
 							<span class="attach_count js_photo_gallery">
 								<?php $j=0; foreach ($atts_arr as $k => $v){
@@ -102,6 +103,10 @@ if(empty($this->empdata)){?>
 									<?php }$j++;}?>
 							</span>
 						<?php }?>
+						<br>
+						<input name="hascopy" id="hascopy" type="checkbox" ' <?php echo ($empDoc[$i]['hascopy'] === "0" ? "" : "checked") ?>/>
+						<small style="font-size: 5px;">Has Submitted?</small>
+					
 					</div>
 					<input type="button" class="edit_doc" value="Edit" onclick="editEmpDoc(<?php echo $empDoc[$i]['id'];?>);">
 					<input type="button" class="delete_doc" value="Delete" onclick="deleteEmpDoc(<?php echo $empDoc[$i]['id'];?>,<?php echo $empDoc[$i]['user_id'];?>);">
